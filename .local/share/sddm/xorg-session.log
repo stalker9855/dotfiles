@@ -1,0 +1,33 @@
+polybar|notice:  Parsing config file: /home/stalker/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 927)
+polybar|warn:  No monitor specified, using "DVI-D-0"
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'xwindow' of type 'internal/xwindow'
+polybar|notice:  Loading module 'filesystem' of type 'internal/fs'
+polybar|notice:  Loading module 'pulseaudio' of type 'internal/pulseaudio'
+polybar|notice:  pulseaudio: using default sink 
+polybar|notice:  Loading module 'xkeyboard' of type 'internal/xkeyboard'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'wlan' of type 'internal/network'
+polybar|error: Disabling module "wlan" (reason: No interface found for type 'wireless')
+polybar|notice:  Loading module 'eth' of type 'internal/network'
+polybar|notice:  module/eth: Discovered wired interface enp4s0
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 9 modules
+polybar|notice:  Loaded font "monospace" (name=Noto Sans Mono, offset=2, file=/usr/share/fonts/noto/NotoSansMono-Regular.ttf)
+polybar|notice:  pulseaudio: using default sink auto_null
+polybar|notice:  pulseaudio: using default sink auto_null
+polybar|notice:  pulseaudio: using default sink auto_null
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo
+
+(process:1035): GLib-CRITICAL **: 13:44:42.769: g_string_insert_len: assertion 'len == 0 || val != NULL' failed
+ATTENTION: default value of option mesa_glthread overridden by environment.
