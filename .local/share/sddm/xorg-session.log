@@ -31,3 +31,26 @@ polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.ana
 
 (process:1035): GLib-CRITICAL **: 13:44:42.769: g_string_insert_len: assertion 'len == 0 || val != NULL' failed
 ATTENTION: default value of option mesa_glthread overridden by environment.
+[506,977] Pending mode change to already current mode (0) requested. Either pending mode expired or there is an application bug.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+[1187,308] Pending mode change to already current mode (0) requested. Either pending mode expired or there is an application bug.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+[1343,041] Pending mode change to already current mode (0) requested. Either pending mode expired or there is an application bug.
+[1449,748] Pending mode change to already current mode (0) requested. Either pending mode expired or there is an application bug.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+[1507,864] Pending mode change to already current mode (0) requested. Either pending mode expired or there is an application bug.
+[1534,548] Pending mode change to already current mode (0) requested. Either pending mode expired or there is an application bug.
+[1620,520] Pending mode change to already current mode (0) requested. Either pending mode expired or there is an application bug.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+[1660,229] Pending mode change to already current mode (0) requested. Either pending mode expired or there is an application bug.
+[1736,382] Pending mode change to already current mode (0) requested. Either pending mode expired or there is an application bug.
+[1885,613] Pending mode change to already current mode (0) requested. Either pending mode expired or there is an application bug.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+[1970,195] Pending mode change to already current mode (0) requested. Either pending mode expired or there is an application bug.
+[1987,372] Pending mode change to already current mode (0) requested. Either pending mode expired or there is an application bug.
+[2022,915] Pending mode change to already current mode (0) requested. Either pending mode expired or there is an application bug.
+[2054,597] Pending mode change to already current mode (0) requested. Either pending mode expired or there is an application bug.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+[2460,857] Pending mode change to already current mode (0) requested. Either pending mode expired or there is an application bug.

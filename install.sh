@@ -1,4 +1,9 @@
 # update all packages before installation
+#
+#
+#
+#
+#
 yay -Syyu
 
 yay -S zsh neovim vim kitty polybar dunst rofi sddm neofetch feh

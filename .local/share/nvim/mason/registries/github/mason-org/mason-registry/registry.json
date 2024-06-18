@@ -3068,7 +3068,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/dprint/dprint@0.46.2",
+      "id": "pkg:github/dprint/dprint@0.46.3",
       "asset": [
         {
           "target": "darwin_arm64",
@@ -3191,7 +3191,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:composer/symplify/easy-coding-standard@12.2.1"
+      "id": "pkg:composer/symplify/easy-coding-standard@12.3.0"
     },
     "bin": {
       "ecs": "composer:ecs"
@@ -4126,7 +4126,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:nuget/fsautocomplete@0.73.1"
+      "id": "pkg:nuget/fsautocomplete@0.73.2"
     },
     "schemas": {
       "lsp": "vscode:https://raw.githubusercontent.com/ionide/ionide-vscode-fsharp/main/release/package.json"
@@ -8071,7 +8071,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:pypi/oelint-adv@5.5.1"
+      "id": "pkg:pypi/oelint-adv@5.5.2"
     },
     "bin": {
       "oelint-adv": "pypi:oelint-adv"
@@ -8706,7 +8706,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:github/phpstan/phpstan@1.11.4",
+      "id": "pkg:github/phpstan/phpstan@1.11.5",
       "asset": {
         "file": "phpstan.phar"
       }
@@ -10390,7 +10390,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:pypi/semgrep@1.75.0",
+      "id": "pkg:pypi/semgrep@1.76.0",
       "supported_platforms": [
         "unix"
       ]
@@ -10581,7 +10581,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:npm/%40shopify/cli@3.61.2"
+      "id": "pkg:npm/%40shopify/cli@3.62.0"
     },
     "bin": {
       "shopify": "npm:shopify"
@@ -11612,7 +11612,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:npm/svelte-language-server@0.16.10",
+      "id": "pkg:npm/svelte-language-server@0.16.11",
       "extra_packages": [
         "typescript-svelte-plugin"
       ]
