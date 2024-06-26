@@ -1,10 +1,10 @@
-[14:29:15.359][info] [#0:/home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:68]: Lua Lsp startup, root: 	/home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec
-[14:29:15.359][info] [#0:/home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:69]: ROOT:	/home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec
-[14:29:15.359][info] [#0:/home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:70]: LOGPATH:	/home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/log
-[14:29:15.359][info] [#0:/home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:71]: METAPATH:	/home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta
-[14:29:15.359][info] [#0:/home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:72]: VERSION:	3.9.3
-[14:29:15.381][info] [#0:script/proto/proto.lua:234]: Listen Mode: stdio
-[14:29:15.381][info] [#0:script/service/service.lua:145]: 
+[20:22:02.954][info] [#0:/home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:68]: Lua Lsp startup, root: 	/home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec
+[20:22:02.954][info] [#0:/home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:69]: ROOT:	/home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec
+[20:22:02.954][info] [#0:/home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:70]: LOGPATH:	/home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/log
+[20:22:02.954][info] [#0:/home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:71]: METAPATH:	/home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta
+[20:22:02.955][info] [#0:/home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:72]: VERSION:	3.9.3
+[20:22:02.977][info] [#0:script/proto/proto.lua:234]: Listen Mode: stdio
+[20:22:02.977][info] [#0:script/service/service.lua:145]: 
 ========= Medical Examination Report =========
     --------------- Memory ---------------
         Total: 1.373 MB
@@ -26,7 +26,7 @@
         Holdon:   0
         Waiting:  0
 ==============================================
-[14:29:15.384][info] [#0:script/client.lua:657]: Client init	{
+[20:22:02.980][info] [#0:script/client.lua:657]: Client init	{
   capabilities = {
     general = {
       positionEncodings = { "utf-16" }
@@ -207,10 +207,10 @@
   },
   clientInfo = {
     name = "Neovim",
-    version = "0.10.0-dev"
+    version = "0.10.0-dev+dirty"
   },
   initializationOptions = {},
-  processId = 6736,
+  processId = 3130,
   rootPath = "/home/stalker/.config/nvim",
   rootUri = "file:///home/stalker/.config/nvim",
   trace = "off",
@@ -220,13 +220,13 @@
       uri = "file:///home/stalker/.config/nvim"
     } }
 }
-[14:29:15.384][info] [#0:script/language.lua:137]: VSC language: nil
-[14:29:15.384][info] [#0:script/language.lua:138]: LS  language: en-us
-[14:29:15.384][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/stalker/.config/nvim
-[14:29:15.384][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/log/file_home_stalker_.config_nvim.log
-[14:29:15.385][info] [#0:script/workspace/workspace.lua:48]: Workspace create: 	file:///home/stalker/.config/nvim
-[14:29:15.486][info] [#0:script/provider/provider.lua:46]: Load config from client	file:///home/stalker/.config/nvim
-[14:29:15.486][info] [#0:script/provider/provider.lua:47]: {
+[20:22:02.980][info] [#0:script/language.lua:137]: VSC language: nil
+[20:22:02.980][info] [#0:script/language.lua:138]: LS  language: en-us
+[20:22:02.980][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/stalker/.config/nvim
+[20:22:02.980][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/log/file_home_stalker_.config_nvim.log
+[20:22:02.980][info] [#0:script/workspace/workspace.lua:48]: Workspace create: 	file:///home/stalker/.config/nvim
+[20:22:03.082][info] [#0:script/provider/provider.lua:46]: Load config from client	file:///home/stalker/.config/nvim
+[20:22:03.082][info] [#0:script/provider/provider.lua:47]: {
   Lua = {
     diagnostics = {
       globals = { "vim", "it", "describe", "before_each", "after_each" }
@@ -236,8 +236,8 @@
     }
   }
 }
-[14:29:15.486][info] [#0:script/provider/provider.lua:46]: Load config from client	file:///home/stalker/.config/nvim
-[14:29:15.486][info] [#0:script/provider/provider.lua:47]: {
+[20:22:03.082][info] [#0:script/provider/provider.lua:46]: Load config from client	file:///home/stalker/.config/nvim
+[20:22:03.082][info] [#0:script/provider/provider.lua:47]: {
   Lua = {
     diagnostics = {
       globals = { "vim", "it", "describe", "before_each", "after_each" }
@@ -247,8 +247,8 @@
     }
   }
 }
-[14:29:15.587][info] [#0:script/provider/provider.lua:61]: Load config from client	fallback
-[14:29:15.587][info] [#0:script/provider/provider.lua:62]: {
+[20:22:03.182][info] [#0:script/provider/provider.lua:61]: Load config from client	fallback
+[20:22:03.182][info] [#0:script/provider/provider.lua:62]: {
   Lua = {
     diagnostics = {
       globals = { "vim", "it", "describe", "before_each", "after_each" }
@@ -258,8 +258,8 @@
     }
   }
 }
-[14:29:15.587][info] [#0:script/provider/provider.lua:61]: Load config from client	fallback
-[14:29:15.587][info] [#0:script/provider/provider.lua:62]: {
+[20:22:03.183][info] [#0:script/provider/provider.lua:61]: Load config from client	fallback
+[20:22:03.183][info] [#0:script/provider/provider.lua:62]: {
   Lua = {
     diagnostics = {
       globals = { "vim", "it", "describe", "before_each", "after_each" }
@@ -269,97 +269,106 @@
     }
   }
 }
-[14:29:15.699][info] [#0:script/library.lua:212]: Init builtin library at:	file:///home/stalker/.config/nvim
-[14:29:15.712][info] [#0:script/library.lua:212]: Init builtin library at:	nil
-[14:29:15.822][info] [#0:script/workspace/workspace.lua:324]: Preload start:	file:///home/stalker/.config/nvim
-[14:29:15.826][info] [#0:script/workspace/workspace.lua:330]: Scan files at:	file:///home/stalker/.config/nvim
-[14:29:15.827][info] [#0:script/workspace/workspace.lua:324]: Preload start:	<fallback>
-[14:29:15.828][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/os.lua
-[14:29:15.829][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/table.lua
-[14:29:15.829][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/debug.lua
-[14:29:15.829][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/coroutine.lua
-[14:29:15.829][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/builtin.lua
-[14:29:15.830][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/io.lua
-[14:29:15.830][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/string.lua
-[14:29:15.830][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/basic.lua
-[14:29:15.831][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/math.lua
-[14:29:15.831][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/package.lua
-[14:29:15.831][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/os.lua
-[14:29:15.832][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/table.lua
-[14:29:15.832][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/debug.lua
-[14:29:15.832][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/coroutine.lua
-[14:29:15.832][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/builtin.lua
-[14:29:15.832][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/io.lua
-[14:29:15.833][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/string.lua
-[14:29:15.833][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/basic.lua
-[14:29:15.833][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/math.lua
-[14:29:15.833][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/package.lua
-[14:29:15.933][info] [#0:script/workspace/workspace.lua:379]: Found 10 files at:	<fallback>
-[14:29:15.934][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	<fallback>
-[14:29:15.934][info] [#0:script/workspace/workspace.lua:379]: Found 23 files at:	file:///home/stalker/.config/nvim
-[14:29:15.934][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/stalker/.config/nvim
-[14:29:15.934][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/package.lua , size = 2.699 KB
-[14:29:15.937][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/package.lua
-[14:29:15.937][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/math.lua , size = 7.911 KB
-[14:29:15.944][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/math.lua
-[14:29:15.944][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/package.lua
-[14:29:15.944][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/math.lua
-[14:29:15.944][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/basic.lua , size = 14.849 KB
-[14:29:15.952][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/basic.lua
-[14:29:15.952][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/string.lua , size = 6.230 KB
-[14:29:15.957][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/string.lua
-[14:29:15.957][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/basic.lua
-[14:29:15.957][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/string.lua
-[14:29:15.957][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/io.lua , size = 6.309 KB
-[14:29:15.961][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/io.lua
-[14:29:15.961][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/io.lua
-[14:29:15.961][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/builtin.lua , size = 0.302 KB
-[14:29:15.961][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/builtin.lua
-[14:29:15.961][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/builtin.lua
-[14:29:15.962][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/coroutine.lua , size = 2.541 KB
-[14:29:15.963][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/coroutine.lua
-[14:29:15.963][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/coroutine.lua
-[14:29:15.963][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/debug.lua , size = 6.691 KB
-[14:29:15.969][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/debug.lua
-[14:29:15.969][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/debug.lua
-[14:29:15.969][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/debug.lua
-[14:29:15.969][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/table.lua , size = 4.235 KB
-[14:29:15.974][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/table.lua
-[14:29:15.974][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/table.lua
-[14:29:15.974][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/table.lua
-[14:29:15.974][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/os.lua , size = 5.507 KB
-[14:29:15.977][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/os.lua
-[14:29:15.977][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/os.lua
-[14:29:15.977][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/os.lua
-[14:29:15.977][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.045] sec: <fallback>
-[14:29:15.977][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: <fallback>
-[14:29:15.977][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	<fallback>
-[14:29:15.977][info] [#0:script/workspace/workspace.lua:381]: Preload finish at:	<fallback>
-[14:29:15.979][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.config/nvim/lua/stalker/lazy/treesitter.lua , size = 1.255 KB
-[14:29:15.980][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.config/nvim/lua/stalker/lazy/colors.lua , size = 0.287 KB
-[14:29:15.981][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.config/nvim/lua/stalker/lazy/lsp.lua , size = 2.861 KB
-[14:29:15.982][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.config/nvim/lua/stalker/lazy/barbar.lua , size = 0.537 KB
-[14:29:15.983][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.config/nvim/lua/stalker/lazy/nvim-tree.lua , size = 0.190 KB
-[14:29:15.983][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.config/nvim/lua/stalker/lazy/comment.lua , size = 0.262 KB
-[14:29:15.983][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.config/nvim/lua/stalker/lazy/telescope.lua , size = 0.419 KB
-[14:29:15.984][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/stalker/.config/nvim/lua/stalker/lazy/lualine.lua
-[14:29:15.984][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.config/nvim/lua/stalker/set.lua , size = 0.545 KB
-[14:29:15.985][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.config/nvim/lua/stalker/remap.lua , size = 0.530 KB
-[14:29:15.986][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.config/nvim/lua/stalker/init.lua , size = 0.076 KB
-[14:29:15.986][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.config/nvim/lua/stalker/lazy_init.lua , size = 0.448 KB
-[14:29:15.987][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.config/nvim/init.lua , size = 0.019 KB
-[14:29:15.987][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.054] sec: file:///home/stalker/.config/nvim
-[14:29:15.987][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/stalker/.config/nvim
-[14:29:15.987][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/stalker/.config/nvim
-[14:29:15.987][info] [#0:script/workspace/workspace.lua:381]: Preload finish at:	file:///home/stalker/.config/nvim
-[14:29:15.990][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/stalker/.config/nvim], files count:[23]
-[14:29:16.106][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/stalker/.config/nvim] finished, takes [0.038] sec.
-[14:31:35.807][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/stalker/.config/nvim/lua/stalker/lazy/lualine.lua
-[14:31:37.444][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/stalker/.config/nvim/lua/stalker/lazy/lualine.lua
-[14:31:37.444][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/stalker/.config/nvim/lua/stalker/lazy/lualine.lua
-[14:31:37.444][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/stalker/.config/nvim/lua/stalker/lazy/lualine.lua
-[14:31:37.444][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/stalker/.config/nvim/lua/stalker/lazy/lualine.lua
-[14:31:37.444][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/stalker/.config/nvim/lua/stalker/lazy/lualine.lua
-[14:31:37.444][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/stalker/.config/nvim/lua/stalker/lazy/lualine.lua
-[14:31:39.500][info] [#0:script/provider/provider.lua:169]: Server shutdown.
-[14:31:39.500][warn] [#0:script/pub/report.lua:25]: Load proto error:	Disconnected!
+[20:22:03.297][info] [#0:script/library.lua:212]: Init builtin library at:	file:///home/stalker/.config/nvim
+[20:22:03.311][info] [#0:script/library.lua:212]: Init builtin library at:	nil
+[20:22:03.420][info] [#0:script/workspace/workspace.lua:324]: Preload start:	file:///home/stalker/.config/nvim
+[20:22:03.424][info] [#0:script/workspace/workspace.lua:330]: Scan files at:	file:///home/stalker/.config/nvim
+[20:22:03.425][info] [#0:script/workspace/workspace.lua:324]: Preload start:	<fallback>
+[20:22:03.426][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/os.lua
+[20:22:03.427][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/table.lua
+[20:22:03.427][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/debug.lua
+[20:22:03.427][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/coroutine.lua
+[20:22:03.428][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/builtin.lua
+[20:22:03.428][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/io.lua
+[20:22:03.428][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/string.lua
+[20:22:03.428][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/basic.lua
+[20:22:03.429][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/math.lua
+[20:22:03.429][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/package.lua
+[20:22:03.430][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/os.lua
+[20:22:03.430][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/table.lua
+[20:22:03.430][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/debug.lua
+[20:22:03.430][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/coroutine.lua
+[20:22:03.430][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/builtin.lua
+[20:22:03.430][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/io.lua
+[20:22:03.431][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/string.lua
+[20:22:03.431][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/basic.lua
+[20:22:03.431][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/math.lua
+[20:22:03.431][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/package.lua
+[20:22:03.532][info] [#0:script/workspace/workspace.lua:379]: Found 10 files at:	<fallback>
+[20:22:03.532][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	<fallback>
+[20:22:03.532][info] [#0:script/workspace/workspace.lua:379]: Found 23 files at:	file:///home/stalker/.config/nvim
+[20:22:03.532][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/stalker/.config/nvim
+[20:22:03.533][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/package.lua , size = 2.699 KB
+[20:22:03.535][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/package.lua
+[20:22:03.535][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/package.lua
+[20:22:03.535][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/math.lua , size = 7.911 KB
+[20:22:03.540][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/math.lua
+[20:22:03.540][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/math.lua
+[20:22:03.542][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/basic.lua , size = 14.849 KB
+[20:22:03.550][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/basic.lua
+[20:22:03.550][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/basic.lua
+[20:22:03.550][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/string.lua , size = 6.230 KB
+[20:22:03.555][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/string.lua
+[20:22:03.555][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/string.lua
+[20:22:03.555][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/io.lua , size = 6.309 KB
+[20:22:03.559][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/io.lua
+[20:22:03.559][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/io.lua
+[20:22:03.559][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/builtin.lua , size = 0.302 KB
+[20:22:03.560][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/builtin.lua
+[20:22:03.560][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/builtin.lua
+[20:22:03.560][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/builtin.lua
+[20:22:03.560][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/coroutine.lua , size = 2.541 KB
+[20:22:03.562][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/coroutine.lua
+[20:22:03.562][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/coroutine.lua
+[20:22:03.562][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/debug.lua , size = 6.691 KB
+[20:22:03.566][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/debug.lua
+[20:22:03.566][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/debug.lua
+[20:22:03.566][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/debug.lua
+[20:22:03.567][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/table.lua , size = 4.235 KB
+[20:22:03.570][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/table.lua
+[20:22:03.570][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/table.lua
+[20:22:03.570][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/os.lua , size = 5.507 KB
+[20:22:03.575][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/os.lua
+[20:22:03.575][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/os.lua
+[20:22:03.575][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/stalker/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/Lua%205.1%20en-us%20utf8/os.lua
+[20:22:03.575][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.044] sec: <fallback>
+[20:22:03.575][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: <fallback>
+[20:22:03.575][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	<fallback>
+[20:22:03.575][info] [#0:script/workspace/workspace.lua:381]: Preload finish at:	<fallback>
+[20:22:03.577][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.config/nvim/lua/stalker/lazy/treesitter.lua , size = 1.255 KB
+[20:22:03.578][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.config/nvim/lua/stalker/lazy/colors.lua , size = 0.287 KB
+[20:22:03.579][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.config/nvim/lua/stalker/lazy/barbar.lua , size = 0.537 KB
+[20:22:03.579][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.config/nvim/lua/stalker/lazy/nvim-tree.lua , size = 0.190 KB
+[20:22:03.579][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.config/nvim/lua/stalker/lazy/comment.lua , size = 0.262 KB
+[20:22:03.580][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.config/nvim/lua/stalker/lazy/telescope.lua , size = 0.419 KB
+[20:22:03.580][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.config/nvim/lua/stalker/lazy/lualine.lua , size = 0.128 KB
+[20:22:03.581][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.config/nvim/lua/stalker/lazy/lsp.lua , size = 2.862 KB
+[20:22:03.582][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.config/nvim/lua/stalker/set.lua , size = 0.545 KB
+[20:22:03.583][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.config/nvim/lua/stalker/init.lua , size = 0.076 KB
+[20:22:03.583][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.config/nvim/lua/stalker/lazy_init.lua , size = 0.448 KB
+[20:22:03.584][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/stalker/.config/nvim/lua/stalker/remap.lua
+[20:22:03.584][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/stalker/.config/nvim/init.lua , size = 0.019 KB
+[20:22:03.584][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.053] sec: file:///home/stalker/.config/nvim
+[20:22:03.584][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/stalker/.config/nvim
+[20:22:03.584][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/stalker/.config/nvim
+[20:22:03.584][info] [#0:script/workspace/workspace.lua:381]: Preload finish at:	file:///home/stalker/.config/nvim
+[20:22:03.589][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/stalker/.config/nvim], files count:[23]
+[20:22:03.711][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/stalker/.config/nvim] finished, takes [0.040] sec.
+[20:22:05.922][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/stalker/.config/nvim/lua/stalker/remap.lua
+[20:22:17.029][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/stalker/.config/nvim/lua/stalker/remap.lua
+[20:22:17.029][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/stalker/.config/nvim/lua/stalker/remap.lua
+[20:22:17.029][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/stalker/.config/nvim/lua/stalker/remap.lua
+[20:22:17.029][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/stalker/.config/nvim/lua/stalker/remap.lua
+[20:22:17.029][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/stalker/.config/nvim/lua/stalker/remap.lua
+[20:22:17.029][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/stalker/.config/nvim/lua/stalker/remap.lua
+[20:22:19.276][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/stalker/.config/nvim], files count:[23]
+[20:22:19.399][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/stalker/.config/nvim] finished, takes [0.041] sec.
+[20:22:26.213][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/stalker/.config/nvim/lua/stalker/remap.lua
+[20:22:28.083][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/stalker/.config/nvim/lua/stalker/remap.lua
+[20:22:28.083][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/stalker/.config/nvim/lua/stalker/remap.lua
+[20:22:28.083][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/stalker/.config/nvim/lua/stalker/remap.lua
+[20:22:28.083][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/stalker/.config/nvim/lua/stalker/remap.lua
+[20:22:28.083][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/stalker/.config/nvim/lua/stalker/remap.lua
+[20:22:28.083][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/stalker/.config/nvim/lua/stalker/remap.lua
+[20:22:29.086][info] [#0:script/provider/provider.lua:169]: Server shutdown.
+[20:22:29.086][warn] [#0:script/pub/report.lua:25]: Load proto error:	Disconnected!

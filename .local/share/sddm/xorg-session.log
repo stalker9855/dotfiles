@@ -1,246 +1,19 @@
 polybar|notice:  Parsing config file: /home/stalker/.config/polybar/config.ini
-polybar|notice:  Listening for IPC messages (PID: 939)
+polybar|notice:  Listening for IPC messages (PID: 4752)
 polybar|warn:  No monitor specified, using "DVI-D-0"
 polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
-polybar|notice:  Loading module 'xwindow' of type 'internal/xwindow'
-polybar|notice:  Loading module 'filesystem' of type 'internal/fs'
-polybar|notice:  Loading module 'pulseaudio' of type 'internal/pulseaudio'
-polybar|notice:  pulseaudio: using default sink 
-polybar|notice:  Loading module 'xkeyboard' of type 'internal/xkeyboard'
-polybar|notice:  Loading module 'memory' of type 'internal/memory'
-polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
-polybar|notice:  Loading module 'wlan' of type 'internal/network'
-polybar|error: Disabling module "wlan" (reason: No interface found for type 'wireless')
-polybar|notice:  Loading module 'eth' of type 'internal/network'
-polybar|notice:  module/eth: Discovered wired interface enp4s0
 polybar|notice:  Loading module 'date' of type 'internal/date'
-polybar|notice:  Loaded 9 modules
-polybar|notice:  Loaded font "monospace" (name=Noto Sans Mono, offset=2, file=/usr/share/fonts/noto/NotoSansMono-Regular.ttf)
-polybar|notice:  pulseaudio: using default sink auto_null
-polybar|notice:  pulseaudio: using default sink auto_null
-polybar|notice:  pulseaudio: using default sink auto_null
-polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo
-polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo
-polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo
-polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo
-polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo
-polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo
-polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo
-polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo
-polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo
-polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo
-polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo
-polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo
-polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo.2
-polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo.2
-polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo.2
-polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo.2
-polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo.2
-polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo.2
-polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo.2
-polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo.2
-polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_08_00.4.analog-stereo.2
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "HurmitNerdFontMono-Regular" (name=Hurmit Nerd Font Mono, offset=2, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|notice:  Loaded font "Source Han Sans JP" (name=Source Han Sans JP, offset=4, file=/usr/share/fonts/adobe-source-han-sans/SourceHanSansJP-Regular.otf)
+polybar|notice:  Loaded font "Powerline Extra Symbols" (name=Powerline Extra Symbols, offset=3, file=/home/stalker/.local/share/fonts/PowerlineExtraSymbols.otf)
+polybar|notice:  Loaded font "HurmitNerdFontMono-Regular:size=24" (name=Hurmit Nerd Font Mono, offset=5, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
 
-(process:6651): GLib-CRITICAL **: 07:35:09.500: g_string_insert_len: assertion 'len == 0 || val != NULL' failed
-ATTENTION: default value of option mesa_glthread overridden by environment.
-ATTENTION: default value of option mesa_glthread overridden by environment.
-ATTENTION: default value of option mesa_glthread overridden by environment.
-ATTENTION: default value of option mesa_glthread overridden by environment.
-ATTENTION: default value of option mesa_glthread overridden by environment.
-ATTENTION: default value of option mesa_glthread overridden by environment.
-polybar|warn:  Dropping unmatched character 'ｌ' (U+ff4c) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｕ' (U+ff55) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｃ' (U+ff43) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｉ' (U+ff49) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｄ' (U+ff44) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character '　' (U+3000) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｄ' (U+ff44) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｒ' (U+ff52) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｅ' (U+ff45) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ａ' (U+ff41) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｍ' (U+ff4d) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｓ' (U+ff53) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｌ' (U+ff4c) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｕ' (U+ff55) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｃ' (U+ff43) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｉ' (U+ff49) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｄ' (U+ff44) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character '　' (U+3000) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｄ' (U+ff44) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｒ' (U+ff52) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｅ' (U+ff45) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ａ' (U+ff41) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｍ' (U+ff4d) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｓ' (U+ff53) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｌ' (U+ff4c) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｕ' (U+ff55) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｃ' (U+ff43) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｉ' (U+ff49) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｄ' (U+ff44) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character '　' (U+3000) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｄ' (U+ff44) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｒ' (U+ff52) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｅ' (U+ff45) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ａ' (U+ff41) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｍ' (U+ff4d) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｓ' (U+ff53) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｌ' (U+ff4c) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｕ' (U+ff55) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｃ' (U+ff43) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｉ' (U+ff49) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｄ' (U+ff44) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character '　' (U+3000) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｄ' (U+ff44) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｒ' (U+ff52) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｅ' (U+ff45) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ａ' (U+ff41) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｍ' (U+ff4d) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｓ' (U+ff53) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｌ' (U+ff4c) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｕ' (U+ff55) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｃ' (U+ff43) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｉ' (U+ff49) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｄ' (U+ff44) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character '　' (U+3000) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｄ' (U+ff44) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｒ' (U+ff52) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｅ' (U+ff45) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ａ' (U+ff41) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｍ' (U+ff4d) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｓ' (U+ff53) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｌ' (U+ff4c) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｕ' (U+ff55) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｃ' (U+ff43) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｉ' (U+ff49) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｄ' (U+ff44) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character '　' (U+3000) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｄ' (U+ff44) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｒ' (U+ff52) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｅ' (U+ff45) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ａ' (U+ff41) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｍ' (U+ff4d) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｓ' (U+ff53) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｌ' (U+ff4c) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｕ' (U+ff55) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｃ' (U+ff43) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｉ' (U+ff49) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｄ' (U+ff44) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character '　' (U+3000) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｄ' (U+ff44) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｒ' (U+ff52) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｅ' (U+ff45) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ａ' (U+ff41) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｍ' (U+ff4d) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｓ' (U+ff53) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｌ' (U+ff4c) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｕ' (U+ff55) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｃ' (U+ff43) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｉ' (U+ff49) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｄ' (U+ff44) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character '　' (U+3000) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｄ' (U+ff44) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｒ' (U+ff52) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｅ' (U+ff45) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ａ' (U+ff41) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｍ' (U+ff4d) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｓ' (U+ff53) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｌ' (U+ff4c) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｕ' (U+ff55) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｃ' (U+ff43) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｉ' (U+ff49) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｄ' (U+ff44) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character '　' (U+3000) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｄ' (U+ff44) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｒ' (U+ff52) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｅ' (U+ff45) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ａ' (U+ff41) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｍ' (U+ff4d) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-polybar|warn:  Dropping unmatched character 'ｓ' (U+ff53) in ' ｌｕｃｉｄ　ｄｒｅａｍｓ - YouTube Music — Mozilla Firefox'
-ATTENTION: default value of option mesa_glthread overridden by environment.
-polybar|warn:  Dropping unmatched character '𝚂' (U+1d682) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚕' (U+1d695) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚘' (U+1d698) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚠' (U+1d6a0) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚎' (U+1d68e) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚍' (U+1d68d) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚃' (U+1d683) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚘' (U+1d698) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝙿' (U+1d67f) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚎' (U+1d68e) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚛' (U+1d69b) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚏' (U+1d68f) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚎' (U+1d68e) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚌' (U+1d68c) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚝' (U+1d69d) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚒' (U+1d692) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚘' (U+1d698) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚗' (U+1d697) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚆' (U+1d686) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚒' (U+1d692) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚝' (U+1d69d) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚑' (U+1d691) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚁' (U+1d681) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚎' (U+1d68e) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚟' (U+1d69f) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚎' (U+1d68e) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚛' (U+1d69b) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚋' (U+1d68b) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚂' (U+1d682) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚕' (U+1d695) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚘' (U+1d698) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚠' (U+1d6a0) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚎' (U+1d68e) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚍' (U+1d68d) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚃' (U+1d683) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚘' (U+1d698) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝙿' (U+1d67f) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚎' (U+1d68e) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚛' (U+1d69b) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚏' (U+1d68f) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚎' (U+1d68e) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚌' (U+1d68c) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚝' (U+1d69d) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚒' (U+1d692) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚘' (U+1d698) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚗' (U+1d697) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚆' (U+1d686) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚒' (U+1d692) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚝' (U+1d69d) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚑' (U+1d691) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚁' (U+1d681) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚎' (U+1d68e) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚟' (U+1d69f) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚎' (U+1d68e) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚛' (U+1d69b) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚋' (U+1d68b) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚂' (U+1d682) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚕' (U+1d695) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚘' (U+1d698) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚠' (U+1d6a0) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚎' (U+1d68e) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚍' (U+1d68d) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚃' (U+1d683) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚘' (U+1d698) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝙿' (U+1d67f) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚎' (U+1d68e) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚛' (U+1d69b) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚏' (U+1d68f) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚎' (U+1d68e) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚌' (U+1d68c) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚝' (U+1d69d) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚒' (U+1d692) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚘' (U+1d698) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚗' (U+1d697) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚆' (U+1d686) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚒' (U+1d692) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚝' (U+1d69d) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚑' (U+1d691) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚁' (U+1d681) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚎' (U+1d68e) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚟' (U+1d69f) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚎' (U+1d68e) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚛' (U+1d69b) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
-polybar|warn:  Dropping unmatched character '𝚋' (U+1d68b) in ' Yves Tumor • Limerence • 𝚂𝚕𝚘𝚠𝚎𝚍 𝚃𝚘 𝙿𝚎𝚛𝚏𝚎𝚌𝚝𝚒𝚘𝚗 𝚆𝚒𝚝𝚑 𝚁𝚎𝚟𝚎𝚛𝚋 - ...'
+(process:4769): GLib-CRITICAL **: 08:36:59.129: g_string_insert_len: assertion 'len == 0 || val != NULL' failed
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
@@ -248,3 +21,10 @@ ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+[163,229] Pending mode change to already current mode (0) requested. Either pending mode expired or there is an application bug.
+[170,309] Pending mode change to already current mode (0) requested. Either pending mode expired or there is an application bug.
