@@ -24,6 +24,11 @@ super + p
 super + alt + {q,r}
 	bspc {quit,wm -r}
 
+# keyboard layout
+Shift_L + Alt_L
+    setxkbmap -query | grep -q 'ru' && setxkbmap us || setxkbmap ru,us
+Shift_R + Alt_R
+    setxkbmap -query | grep -q 'ru' && setxkbmap us || setxkbmap ru,us
 # close and kill
 super + {_,shift + }w
 	bspc node -{c,k}

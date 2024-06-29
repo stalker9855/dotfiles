@@ -11,6 +11,12 @@ bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
+# Colors
+bspc config normal_border_color "#f7786e"
+bspc config focused_border_color "#9ece6a"
+bspc config urgent_border_color "#ff7786e"
+bspc config presel_border_color "#ff7786e"
+
 bspc rule -a Gimp desktop='^8' state=floating follow=on
 bspc rule -a firefox desktop='^2'
 bspc rule -a mplayer2 state=floating
@@ -18,7 +24,9 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
 xsetroot -cursor_name left_ptr
-bash $HOME/.config/polybar/launch.sh
-sh ~/.fehbg
-picom --config=$HOME/.config/picom/picom.conf
+nm-applet &
+bash $HOME/.config/polybar/launch.sh &
+sh ~/.fehbg &
+picom --config=$HOME/.config/picom/picom.conf &
 
+setxkbmap -model pc105 -layout us,ru -option grp:alt_shift_toggle

@@ -264,4 +264,44 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/stalker/Downloads/05-Skeuos-White-20220629.tar.xz" added="2024-06-27T05:48:53.156852Z" modified="2024-06-27T05:48:53.156856Z" visited="2024-06-27T05:48:53.156853Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xz-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-06-27T05:48:53.156854Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/stalker/Downloads/Flatery-Green.tar.gz" added="2024-06-27T06:03:17.816731Z" modified="2024-06-27T06:03:17.816755Z" visited="2024-06-27T06:03:17.816732Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-06-27T06:03:17.816733Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/stalker/Desktop" added="2024-06-27T06:04:52.129824Z" modified="2024-06-27T06:04:52.129828Z" visited="2024-06-27T06:04:52.129824Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2024-06-27T06:04:52.129825Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/stalker" added="2024-06-27T06:04:52.773704Z" modified="2024-06-27T06:04:52.773708Z" visited="2024-06-27T06:04:52.773705Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2024-06-27T06:04:52.773706Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

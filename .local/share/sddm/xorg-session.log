@@ -1,30 +1,252 @@
 polybar|notice:  Parsing config file: /home/stalker/.config/polybar/config.ini
-polybar|notice:  Listening for IPC messages (PID: 4752)
+polybar|notice:  Listening for IPC messages (PID: 12628)
 polybar|warn:  No monitor specified, using "DVI-D-0"
 polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'xkeyboard' of type 'internal/xkeyboard'
 polybar|notice:  Loading module 'date' of type 'internal/date'
-polybar|notice:  Loaded 2 modules
-polybar|notice:  Loaded font "HurmitNerdFontMono-Regular" (name=Hurmit Nerd Font Mono, offset=2, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
-polybar|notice:  Loaded font "Source Han Sans JP" (name=Source Han Sans JP, offset=4, file=/usr/share/fonts/adobe-source-han-sans/SourceHanSansJP-Regular.otf)
-polybar|notice:  Loaded font "Powerline Extra Symbols" (name=Powerline Extra Symbols, offset=3, file=/home/stalker/.local/share/fonts/PowerlineExtraSymbols.otf)
-polybar|notice:  Loaded font "HurmitNerdFontMono-Regular:size=24" (name=Hurmit Nerd Font Mono, offset=5, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|notice:  Loading module 'network' of type 'internal/network'
+polybar|error: Disabling module "network" (reason: Invalid network interface "wlan1")
+polybar|notice:  Loaded 5 modules
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=Regular" (name=Hurmit Nerd Font Mono, offset=2, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|notice:  Loaded font "Source Han Sans JP" (name=Source Han Sans JP, offset=2, file=/usr/share/fonts/adobe-source-han-sans/SourceHanSansJP-Regular.otf)
+polybar|notice:  Loaded font "Powerline Extra Symbols" (name=Powerline Extra Symbols, offset=2, file=/home/stalker/.local/share/fonts/PowerlineExtraSymbols.otf)
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=Regular:size=20" (name=Hurmit Nerd Font Mono, offset=3, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
 polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
 polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  tray: bar/mybar.tray-position is deprecated, use the dedicated tray module to display the system tray
 polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
 polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
 
-(process:4769): GLib-CRITICAL **: 08:36:59.129: g_string_insert_len: assertion 'len == 0 || val != NULL' failed
+(process:12683): GLib-CRITICAL **: 08:49:24.972: g_string_insert_len: assertion 'len == 0 || val != NULL' failed
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
+[241,716] Pending mode change to already current mode (0) requested. Either pending mode expired or there is an application bug.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+[ 29.06.24 08:55:03.444 session_init FATAL ERROR ] Another composite manager is already running
+polybar|notice:  Parsing config file: /home/stalker/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 17660)
+polybar|warn:  No monitor specified, using "DVI-D-0"
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'xkeyboard' of type 'internal/xkeyboard'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loading module 'network' of type 'internal/network'
+polybar|error: Disabling module "network" (reason: Invalid network interface "wlan1")
+polybar|notice:  Loaded 5 modules
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=Regular" (name=Hurmit Nerd Font Mono, offset=2, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|notice:  Loaded font "Source Han Sans JP" (name=Source Han Sans JP, offset=2, file=/usr/share/fonts/adobe-source-han-sans/SourceHanSansJP-Regular.otf)
+polybar|notice:  Loaded font "Powerline Extra Symbols" (name=Powerline Extra Symbols, offset=2, file=/home/stalker/.local/share/fonts/PowerlineExtraSymbols.otf)
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=Regular:size=20" (name=Hurmit Nerd Font Mono, offset=3, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|warn:  tray: bar/mybar.tray-position is deprecated, use the dedicated tray module to display the system tray
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+[ 29.06.24 08:55:09.346 session_init FATAL ERROR ] Another composite manager is already running
+polybar|notice:  Parsing config file: /home/stalker/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 17704)
+polybar|warn:  No monitor specified, using "DVI-D-0"
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'xkeyboard' of type 'internal/xkeyboard'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loading module 'network' of type 'internal/network'
+polybar|error: Disabling module "network" (reason: Invalid network interface "wlan1")
+polybar|notice:  Loaded 5 modules
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=Regular" (name=Hurmit Nerd Font Mono, offset=2, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|notice:  Loaded font "Source Han Sans JP" (name=Source Han Sans JP, offset=2, file=/usr/share/fonts/adobe-source-han-sans/SourceHanSansJP-Regular.otf)
+polybar|notice:  Loaded font "Powerline Extra Symbols" (name=Powerline Extra Symbols, offset=2, file=/home/stalker/.local/share/fonts/PowerlineExtraSymbols.otf)
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=Regular:size=20" (name=Hurmit Nerd Font Mono, offset=3, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|warn:  tray: bar/mybar.tray-position is deprecated, use the dedicated tray module to display the system tray
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+[ 29.06.24 08:55:13.493 session_init FATAL ERROR ] Another composite manager is already running
+polybar|notice:  Parsing config file: /home/stalker/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 17747)
+polybar|warn:  No monitor specified, using "DVI-D-0"
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'xkeyboard' of type 'internal/xkeyboard'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loading module 'network' of type 'internal/network'
+polybar|error: Disabling module "network" (reason: Invalid network interface "wlan1")
+polybar|notice:  Loaded 5 modules
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=Regular" (name=Hurmit Nerd Font Mono, offset=2, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|notice:  Loaded font "Source Han Sans JP" (name=Source Han Sans JP, offset=2, file=/usr/share/fonts/adobe-source-han-sans/SourceHanSansJP-Regular.otf)
+polybar|notice:  Loaded font "Powerline Extra Symbols" (name=Powerline Extra Symbols, offset=2, file=/home/stalker/.local/share/fonts/PowerlineExtraSymbols.otf)
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=Regular:size=20" (name=Hurmit Nerd Font Mono, offset=3, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|warn:  tray: bar/mybar.tray-position is deprecated, use the dedicated tray module to display the system tray
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+[ 29.06.24 08:55:18.195 session_init FATAL ERROR ] Another composite manager is already running
+polybar|notice:  Parsing config file: /home/stalker/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 17786)
+polybar|warn:  No monitor specified, using "DVI-D-0"
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'xkeyboard' of type 'internal/xkeyboard'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loading module 'network' of type 'internal/network'
+polybar|error: Disabling module "network" (reason: Invalid network interface "wlan1")
+polybar|notice:  Loaded 5 modules
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=Regular" (name=Hurmit Nerd Font Mono, offset=2, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|notice:  Loaded font "Source Han Sans JP" (name=Source Han Sans JP, offset=2, file=/usr/share/fonts/adobe-source-han-sans/SourceHanSansJP-Regular.otf)
+polybar|notice:  Loaded font "Powerline Extra Symbols" (name=Powerline Extra Symbols, offset=2, file=/home/stalker/.local/share/fonts/PowerlineExtraSymbols.otf)
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=Regular:size=20" (name=Hurmit Nerd Font Mono, offset=3, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|warn:  tray: bar/mybar.tray-position is deprecated, use the dedicated tray module to display the system tray
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+[ 29.06.24 08:55:23.235 session_init FATAL ERROR ] Another composite manager is already running
+polybar|notice:  Parsing config file: /home/stalker/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 17830)
+polybar|warn:  No monitor specified, using "DVI-D-0"
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'xkeyboard' of type 'internal/xkeyboard'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loading module 'network' of type 'internal/network'
+polybar|error: Disabling module "network" (reason: Invalid network interface "wlan1")
+polybar|notice:  Loaded 5 modules
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=Regular" (name=Hurmit Nerd Font Mono, offset=2, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|notice:  Loaded font "Source Han Sans JP" (name=Source Han Sans JP, offset=2, file=/usr/share/fonts/adobe-source-han-sans/SourceHanSansJP-Regular.otf)
+polybar|notice:  Loaded font "Powerline Extra Symbols" (name=Powerline Extra Symbols, offset=2, file=/home/stalker/.local/share/fonts/PowerlineExtraSymbols.otf)
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=Regular:size=20" (name=Hurmit Nerd Font Mono, offset=3, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|warn:  tray: bar/mybar.tray-position is deprecated, use the dedicated tray module to display the system tray
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+[ 29.06.24 08:55:44.569 session_init FATAL ERROR ] Another composite manager is already running
+polybar|notice:  Parsing config file: /home/stalker/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 17912)
+polybar|warn:  No monitor specified, using "DVI-D-0"
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'xkeyboard' of type 'internal/xkeyboard'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loading module 'network' of type 'internal/network'
+polybar|error: Disabling module "network" (reason: Invalid network interface "wlan1")
+polybar|notice:  Loaded 5 modules
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=Regular" (name=Hurmit Nerd Font Mono, offset=2, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|notice:  Loaded font "Source Han Sans JP" (name=Source Han Sans JP, offset=2, file=/usr/share/fonts/adobe-source-han-sans/SourceHanSansJP-Regular.otf)
+polybar|notice:  Loaded font "Powerline Extra Symbols" (name=Powerline Extra Symbols, offset=2, file=/home/stalker/.local/share/fonts/PowerlineExtraSymbols.otf)
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=Regular:size=20" (name=Hurmit Nerd Font Mono, offset=3, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|warn:  tray: bar/mybar.tray-position is deprecated, use the dedicated tray module to display the system tray
+[385,788] Pending mode change to already current mode (0) requested. Either pending mode expired or there is an application bug.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+config: Unknown setting: 'urgent_border_color'.
+config: Unknown setting: 'presel_border_color'.
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+[ 29.06.24 08:56:30.755 session_init FATAL ERROR ] Another composite manager is already running
+polybar|notice:  Parsing config file: /home/stalker/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 18026)
+polybar|warn:  No monitor specified, using "DVI-D-0"
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'xkeyboard' of type 'internal/xkeyboard'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loading module 'network' of type 'internal/network'
+polybar|error: Disabling module "network" (reason: Invalid network interface "wlan1")
+polybar|notice:  Loaded 5 modules
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=Regular" (name=Hurmit Nerd Font Mono, offset=2, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|notice:  Loaded font "Source Han Sans JP" (name=Source Han Sans JP, offset=2, file=/usr/share/fonts/adobe-source-han-sans/SourceHanSansJP-Regular.otf)
+polybar|notice:  Loaded font "Powerline Extra Symbols" (name=Powerline Extra Symbols, offset=2, file=/home/stalker/.local/share/fonts/PowerlineExtraSymbols.otf)
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=Regular:size=20" (name=Hurmit Nerd Font Mono, offset=3, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|warn:  tray: bar/mybar.tray-position is deprecated, use the dedicated tray module to display the system tray
+config: normal_border_color: Invalid value: '#ff7786e'.
+config: Unknown setting: 'urgent_border_color'.
+config: Unknown setting: 'presel_border_color'.
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+[ 29.06.24 08:57:15.267 session_init FATAL ERROR ] Another composite manager is already running
+polybar|notice:  Parsing config file: /home/stalker/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 18186)
+polybar|warn:  No monitor specified, using "DVI-D-0"
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'xkeyboard' of type 'internal/xkeyboard'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loading module 'network' of type 'internal/network'
+polybar|error: Disabling module "network" (reason: Invalid network interface "wlan1")
+polybar|notice:  Loaded 5 modules
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=Regular" (name=Hurmit Nerd Font Mono, offset=2, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|notice:  Loaded font "Source Han Sans JP" (name=Source Han Sans JP, offset=2, file=/usr/share/fonts/adobe-source-han-sans/SourceHanSansJP-Regular.otf)
+polybar|notice:  Loaded font "Powerline Extra Symbols" (name=Powerline Extra Symbols, offset=2, file=/home/stalker/.local/share/fonts/PowerlineExtraSymbols.otf)
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=Regular:size=20" (name=Hurmit Nerd Font Mono, offset=3, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|warn:  tray: bar/mybar.tray-position is deprecated, use the dedicated tray module to display the system tray
+config: normal_border_color: Invalid value: '#ff7786e'.
+config: Unknown setting: 'urgent_border_color'.
+config: Unknown setting: 'presel_border_color'.
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+[ 29.06.24 08:57:21.622 session_init FATAL ERROR ] Another composite manager is already running
+polybar|notice:  Parsing config file: /home/stalker/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 18239)
+polybar|warn:  No monitor specified, using "DVI-D-0"
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'xkeyboard' of type 'internal/xkeyboard'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loading module 'network' of type 'internal/network'
+polybar|error: Disabling module "network" (reason: Invalid network interface "wlan1")
+polybar|notice:  Loaded 5 modules
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=Regular" (name=Hurmit Nerd Font Mono, offset=2, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|notice:  Loaded font "Source Han Sans JP" (name=Source Han Sans JP, offset=2, file=/usr/share/fonts/adobe-source-han-sans/SourceHanSansJP-Regular.otf)
+polybar|notice:  Loaded font "Powerline Extra Symbols" (name=Powerline Extra Symbols, offset=2, file=/home/stalker/.local/share/fonts/PowerlineExtraSymbols.otf)
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=Regular:size=20" (name=Hurmit Nerd Font Mono, offset=3, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|warn:  tray: bar/mybar.tray-position is deprecated, use the dedicated tray module to display the system tray
+config: normal_border_color: Invalid value: '#ff7786e'.
+config: Unknown setting: 'urgent_border_color'.
+config: Unknown setting: 'presel_border_color'.
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+[ 29.06.24 08:57:25.580 session_init FATAL ERROR ] Another composite manager is already running
+polybar|notice:  Parsing config file: /home/stalker/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 18287)
+polybar|warn:  No monitor specified, using "DVI-D-0"
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'xkeyboard' of type 'internal/xkeyboard'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loading module 'network' of type 'internal/network'
+polybar|error: Disabling module "network" (reason: Invalid network interface "wlan1")
+polybar|notice:  Loaded 5 modules
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=Regular" (name=Hurmit Nerd Font Mono, offset=2, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|notice:  Loaded font "Source Han Sans JP" (name=Source Han Sans JP, offset=2, file=/usr/share/fonts/adobe-source-han-sans/SourceHanSansJP-Regular.otf)
+polybar|notice:  Loaded font "Powerline Extra Symbols" (name=Powerline Extra Symbols, offset=2, file=/home/stalker/.local/share/fonts/PowerlineExtraSymbols.otf)
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=Regular:size=20" (name=Hurmit Nerd Font Mono, offset=3, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|warn:  tray: bar/mybar.tray-position is deprecated, use the dedicated tray module to display the system tray
+config: Unknown setting: 'urgent_border_color'.
+config: Unknown setting: 'presel_border_color'.
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+[ 29.06.24 08:57:32.707 session_init FATAL ERROR ] Another composite manager is already running
+polybar|notice:  Parsing config file: /home/stalker/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 18338)
+polybar|warn:  No monitor specified, using "DVI-D-0"
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'xkeyboard' of type 'internal/xkeyboard'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loading module 'network' of type 'internal/network'
+polybar|error: Disabling module "network" (reason: Invalid network interface "wlan1")
+polybar|notice:  Loaded 5 modules
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=Regular" (name=Hurmit Nerd Font Mono, offset=2, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|notice:  Loaded font "Source Han Sans JP" (name=Source Han Sans JP, offset=2, file=/usr/share/fonts/adobe-source-han-sans/SourceHanSansJP-Regular.otf)
+polybar|notice:  Loaded font "Powerline Extra Symbols" (name=Powerline Extra Symbols, offset=2, file=/home/stalker/.local/share/fonts/PowerlineExtraSymbols.otf)
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=Regular:size=20" (name=Hurmit Nerd Font Mono, offset=3, file=/home/stalker/.local/share/fonts/HurmitNerdFontMono-Regular.otf)
+polybar|warn:  tray: bar/mybar.tray-position is deprecated, use the dedicated tray module to display the system tray
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
-ATTENTION: default value of option mesa_glthread overridden by environment.
-ATTENTION: default value of option mesa_glthread overridden by environment.
-ATTENTION: default value of option mesa_glthread overridden by environment.
-ATTENTION: default value of option mesa_glthread overridden by environment.
-ATTENTION: default value of option mesa_glthread overridden by environment.
-ATTENTION: default value of option mesa_glthread overridden by environment.
-ATTENTION: default value of option mesa_glthread overridden by environment.
-ATTENTION: default value of option mesa_glthread overridden by environment.
-[163,229] Pending mode change to already current mode (0) requested. Either pending mode expired or there is an application bug.
-[170,309] Pending mode change to already current mode (0) requested. Either pending mode expired or there is an application bug.
