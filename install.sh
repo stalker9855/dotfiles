@@ -19,6 +19,6 @@ cp .zshrc $HOME/
 
 source $HOME/.zshrc
 
-feh --bg-fill ~/.config/wallpapers/wall-04.jpg
+feh --bg-fill ~/.config/wallpapers/touka.jpg
 
 echo "Completed!"
