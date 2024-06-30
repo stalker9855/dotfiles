@@ -103,6 +103,8 @@ alias vim="nvim"
 alias ls="eza -1 --icons"
 alias venvact="source venv/bin/activate"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
+alias trade="transmission-daemon"
+alias tsm="transmission-remote"
 
 # bun completions
 [ -s "/home/stalker/.bun/_bun" ] && source "/home/stalker/.bun/_bun"

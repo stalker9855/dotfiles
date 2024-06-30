@@ -28,6 +28,11 @@ return {
             ensure_installed = {
                 "lua_ls",
                 "pyright",
+                "tsserver",
+                "html",
+                "cssls",
+                "volar",
+                "clangd",
             },
             handlers = {
                 function(server_name) -- default handler (optional)

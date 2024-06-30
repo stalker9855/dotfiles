@@ -29,4 +29,4 @@ bash $HOME/.config/polybar/launch.sh &
 sh ~/.fehbg &
 picom --config=$HOME/.config/picom/picom.conf &
 
-setxkbmap -model pc105 -layout us,ru -option grp:alt_shift_toggle
+setxkbmap -model pc105 -layout us,ru -option "grp:alt_shift_toggle"
