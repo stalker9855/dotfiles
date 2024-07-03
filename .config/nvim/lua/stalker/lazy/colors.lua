@@ -7,7 +7,10 @@ function ColorMyPencils(color)
 end
 return {
   "folke/tokyonight.nvim",
+  bg = false,
   lazy = false,
   priority = 1000,
-  opts = {},
+  opts = {
+      
+  },
 }
