@@ -1,5 +1,5 @@
-require("stalker.remap")
-require("stalker.lazy_init")
-require("stalker.set")
+require("stalker.core.keymap")
+require("stalker.core.options")
+require("stalker.lazy")
 require("lualine").setup()
 
