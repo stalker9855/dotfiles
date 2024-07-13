@@ -13,6 +13,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
 	spec = "stalker.plugins",
+    notify = false,
 	change_detection = { notify = true }
 })
 

@@ -4,7 +4,7 @@ return {
     dependencies = 'nvim-tree/nvim-web-devicons',
     opts = {
         options = {
-            mode = "buffers",
+            mode = "tabs",
             hover = {
                 enabled = true,
                 delay = 200,

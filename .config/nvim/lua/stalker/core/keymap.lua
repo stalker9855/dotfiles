@@ -35,9 +35,9 @@ vim.keymap.set("n", "<leader>sx", "<Cmd>close<CR>")
 
 vim.keymap.set("n", "<leader>x", "<Cmd>tabclose<CR>", { desc = "Close current tab"})
 vim.keymap.set("n", "<leader>n", "<Cmd>tabnew %<CR>", { desc = "Create new tab"})
-vim.keymap.set("n", "<Tab>", "<Cmd>BufferLineCycleNext<CR>", { desc = "Go to next tab"})
-vim.keymap.set("n", "<S-Tab>", "<Cmd>BufferLineCyclePrev<CR>", { desc = "Go to previous tab"})
--- vim.keymap.set("n", "<Tab>", "<Cmd>tabn<CR>", { desc = "Go to next tab"})
--- vim.keymap.set("n", "<S-Tab>", "<Cmd>tabp<CR>", { desc = "Go to previous tab"})
+-- vim.keymap.set("n", "<Tab>", "<Cmd>BufferLineCycleNext<CR>", { desc = "Go to next tab"})
+-- vim.keymap.set("n", "<S-Tab>", "<Cmd>BufferLineCyclePrev<CR>", { desc = "Go to previous tab"})
+vim.keymap.set("n", "<Tab>", "<Cmd>tabn<CR>", { desc = "Go to next tab"})
+vim.keymap.set("n", "<S-Tab>", "<Cmd>tabp<CR>", { desc = "Go to previous tab"})
 
 vim.keymap.set("i", "kj", "<Esc>")
