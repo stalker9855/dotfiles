@@ -14,7 +14,7 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
 bspc config normal_border_color "#232634"
-bspc config focused_border_color "#4c4f69"
+bspc config focused_border_color "#a6e3a1"
 bspc rule -a pavucontrol state=floating focus=on rectangle=400x300+1250+50
 #
 bspc config urgent_border_color "#B58900"
@@ -27,7 +27,6 @@ bspc rule -a steam state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 bspc rule -a zed state=floating
-chwb2 -I '111111' -O 'cccccc' -i 1 -o 2 0x0400005 
 
 xsetroot -cursor_name left_ptr
 nm-applet &
