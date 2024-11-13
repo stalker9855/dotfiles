@@ -21,12 +21,15 @@ bspc config urgent_border_color "#B58900"
 bspc config presel_border_color "#26E2FF"
 
 bspc rule -a Gimp desktop='^8' state=floating follow=on
-bspc rule -a Chromium desktop='^2'
+bspc rule -a firefox desktop='^2'
+bspc rule -a steam desktop='^5'
 bspc rule -a mplayer2 state=floating
 bspc rule -a steam state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 bspc rule -a zed state=floating
+bspc rule -a zenity state=floating
+
 
 xsetroot -cursor_name left_ptr
 nm-applet &
