@@ -121,3 +121,14 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 source <(ng completion script)
 
 export PATH=$HOME/.local/bin:$PATH
+export PATH=/home/bobr/.local/bin:/home/bobr/.bun/bin:/home/bobr/.local/bin:/home/bobr/.bun/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/opt/glassfish7/bin
+
+jdeploy() {
+  mvn clean install
+  if [ -z "$1" ]; then
+    echo "Enter name"
+    return 1
+  fi
+  local app_name="$1"
+  asadmin undeploy "$app_name" && asadmin deploy target/"$app_name"
+}
