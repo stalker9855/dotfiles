@@ -13,8 +13,8 @@ format-volume-underline = ${colors.background}
 ;   <bar-volume>
 format-muted = <label-muted>
 format-muted-prefix = 
-format-muted-prefix-background = ${colors.mantle}
-format-muted-prefix-foreground = ${colors.red}
+format-muted-prefix-background = ${colors.red}
+format-muted-prefix-foreground = ${colors.mantle}
 format-muted-prefix-padding = 1
 format-muted-overline = ${colors.background}
 format-muted-underline = ${colors.background}
@@ -36,8 +36,8 @@ label-muted-padding = 1
 ramp-volume-0 = 
 ramp-volume-1 = 
 ramp-volume-2 = 
-ramp-volume-background = ${colors.mantle}
-ramp-volume-foreground = ${colors.green}
+ramp-volume-background = ${colors.green}
+ramp-volume-foreground = ${colors.mantle}
 ramp-volume-padding = 1
 
 ; If defined, it will replace <ramp-volume> when
@@ -55,8 +55,8 @@ click-left = rofi -show
 
 content = 
 content-padding = 1
-content-foreground = ${colors.pink}
-content-background = ${colors.mantle}
+content-foreground = ${colors.mantle}
+content-background = ${colors.teal}
 content-underline = ${colors.background}
 content-overline = ${colors.background}
 
@@ -71,8 +71,8 @@ date-alt = %Y-%m-%d %H:%M:%S
 format = <label>
 format-prefix = 
 format-prefix-padding = 1
-format-prefix-background = ${colors.mantle}
-format-prefix-foreground = ${colors.lavender}
+format-prefix-background = ${colors.lavender}
+format-prefix-foreground = ${colors.mantle}
 format-prefix-underline = ${colors.background}
 format-prefix-overline  = ${colors.background}
 label = %date%
@@ -90,7 +90,7 @@ format = <label-layout>
 
 format-prefix = 
 format-prefix-padding = 1
-format-prefix-background = ${colors.mantle}
+format-prefix-background = ${colors.background-alt}
 format-prefix-foreground = ${colors.sky}
 format-prefix-underline = ${colors.background}
 format-prefix-overline  = ${colors.background}
