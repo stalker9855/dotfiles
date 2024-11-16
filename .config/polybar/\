@@ -13,8 +13,8 @@ format-volume-underline = ${colors.background}
 ;   <bar-volume>
 format-muted = <label-muted>
 format-muted-prefix = 
-format-muted-prefix-background = ${colors.mantle}
-format-muted-prefix-foreground = ${colors.red}
+format-muted-prefix-background = ${colors.red}
+format-muted-prefix-foreground = ${colors.mantle}
 format-muted-prefix-padding = 1
 format-muted-overline = ${colors.background}
 format-muted-underline = ${colors.background}
@@ -36,8 +36,8 @@ label-muted-padding = 1
 ramp-volume-0 = 
 ramp-volume-1 = 
 ramp-volume-2 = 
-ramp-volume-background = ${colors.mantle}
-ramp-volume-foreground = ${colors.green}
+ramp-volume-background = ${colors.green}
+ramp-volume-foreground = ${colors.mantle}
 ramp-volume-padding = 1
 
 ; If defined, it will replace <ramp-volume> when
@@ -55,8 +55,8 @@ click-left = rofi -show
 
 content = 
 content-padding = 1
-content-foreground = ${colors.pink}
-content-background = ${colors.mantle}
+content-foreground = ${colors.mantle}
+content-background = ${colors.teal}
 content-underline = ${colors.background}
 content-overline = ${colors.background}
 
@@ -71,8 +71,8 @@ date-alt = %Y-%m-%d %H:%M:%S
 format = <label>
 format-prefix = 
 format-prefix-padding = 1
-format-prefix-background = ${colors.mantle}
-format-prefix-foreground = ${colors.lavender}
+format-prefix-background = ${colors.lavender}
+format-prefix-foreground = ${colors.mantle}
 format-prefix-underline = ${colors.background}
 format-prefix-overline  = ${colors.background}
 label = %date%
@@ -90,7 +90,7 @@ format = <label-layout>
 
 format-prefix = 
 format-prefix-padding = 1
-format-prefix-background = ${colors.mantle}
+format-prefix-background = ${colors.background-alt}
 format-prefix-foreground = ${colors.sky}
 format-prefix-underline = ${colors.background}
 format-prefix-overline  = ${colors.background}
@@ -154,7 +154,7 @@ label-urgent-background = ${colors.alert}
 label-urgent-padding = 1
 
 label-empty = %name%
-label-empty-foreground = ${colors.overlay-0}
+label-empty-foreground = ${colors.text}
 label-empty-background = ${colors.mantle}
 label-empty-overline= ${colors.background}
 label-empty-underline= ${colors.background}
@@ -217,89 +217,3 @@ content-foreground = #2b2f37
 type = custom/text
 content = %{T3}%{T-}
 content-foreground = #2b2f37
-
-
-
-[module/mpd]
-type = internal/mpd
-
-; Host where mpd is running (either ip or domain name)
-; Can also be the full path to a unix socket where mpd is running.
-host = 127.0.0.1
-port = 6600
-password = mysecretpassword
-
-; Seconds to sleep between progressbar/song timer sync
-; Default: 1
-interval = 2
-; Available tags:
-;   <label-song> (default)
-;   <label-time>
-;   <bar-progress>
-;   <toggle> - gets replaced with <icon-(pause|play)>
-;   <toggle-stop> - gets replaced with <icon-(stop|play)>
-;   <icon-random>
-;   <icon-repeat>
-;   <icon-repeatone> (deprecated)
-;   <icon-single> - Toggle playing only a single song. Replaces <icon-repeatone>
-;   <icon-consume>
-;   <icon-prev>
-;   <icon-stop>
-;   <icon-play>
-;   <icon-pause>
-;   <icon-next>
-;   <icon-seekb>
-;   <icon-seekf>
-format-online = <icon-prev> <icon-seekb> <icon-stop> <toggle> <icon-seekf> <icon-next>  <icon-repeat> <icon-random>  <bar-progress> <label-time>  <label-song>
-;format-playing = ${self.format-online}
-;format-paused = ${self.format-online}
-;format-stopped = ${self.format-online}
-
-; Available tags:
-;   <label-offline>
-; Default: ""
-;format-offline = <label-offline>
-
-; Available tokens:
-;   %artist%
-;   %album-artist%
-;   %album%
-;   %date%
-;   %title%
-; Default: %artist% - %title%
-label-song = 𝄞 %artist% - %title%
-
-; Available tokens:
-;   %elapsed%
-;   %total%
-; Default: %elapsed% / %total%
-;label-time = %elapsed% / %total%
-
-; Available tokens:
-;   None
-label-offline = 🎜 mpd is offline
-
-; Only applies if <icon-X> is used
-icon-play = ⏵
-icon-pause = ⏸
-icon-stop = ⏹
-icon-prev = ⏮
-icon-next = ⏭
-icon-seekb = ⏪
-icon-seekf = ⏩
-icon-random = 🔀
-icon-repeat = 🔁
-icon-repeatone = 🔂
-icon-single = 🔂
-icon-consume = ✀
-
-; Used to display the state of random/repeat/repeatone/single
-; Only applies if <icon-[random|repeat|repeatone|single]> is used
-toggle-on-foreground = #ff
-toggle-off-foreground = #55
-
-; Only applies if <bar-progress> is used
-bar-progress-width = 45
-bar-progress-indicator = |
-bar-progress-fill = ─
-bar-progress-empty = ─
