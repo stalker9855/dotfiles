@@ -2,6 +2,15 @@
 # wm independent hotkeys
 #
 
+# Brigtness (for laptop)
+# Brigthness up 10%
+XF86MonBrightnessUp
+  brightnessctl s +10%
+
+# Brigthness down 10%
+XF86MonBrightnessDown
+  brightnessctl s 10%-
+
 # terminal emulator
 super + Return
 	kitty
