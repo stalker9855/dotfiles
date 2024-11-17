@@ -32,6 +32,7 @@ bspc rule -a zenity state=floating
 bspc rule -a "Dear PyGui" state=floating
 
 xsetroot -cursor_name left_ptr
+dunst &
 nm-applet &
 jamesdsp -t &
 flameshot &
