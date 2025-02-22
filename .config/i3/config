@@ -39,8 +39,8 @@ exec --no-startup-id dunst &
 exec --no-startup-id nm-applet &
 exec --no-startup-id flameshot &
 exec_always --no-startup-id bash $HOME/.config/polybar/i3_polybar/launch.sh &
-# exec --no-startup-id sh ~/.fehbg &
-exec --no-startup-id wal -R
+exec --no-startup-id feh --bg-fill $HOME/.config/wallpapers/afternoon.jpg
+# exec --no-startup-id wal -R
 exec --no-startup-id jamesdsp -t &
 # exec_always --no-startup-id ../polybar/launch.sh
 exec --no-startup-id picom --config=$HOME/.config/picom/picom.conf &
