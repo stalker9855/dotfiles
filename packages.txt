@@ -9,8 +9,7 @@ w3m
 unzip
 feh
 git
-bspwm
-sxhkd
+i3-gaps
 picom
 rofi
 polybar
