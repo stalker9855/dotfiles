@@ -6,7 +6,7 @@
 #: individual font faces and even specify special fonts for particular
 #: characters.
 
-# font_family      monospace
+# font_family      Monaspace Krypton 
 # bold_font        auto
 # italic_font      auto
 # bold_italic_font auto
@@ -853,14 +853,14 @@ font_size 14.0
 #: that setting a non-zero window_margin_width overrides this and
 #: causes all borders to be drawn.
 
-# window_margin_width 0
+window_margin_width 0
 
 #: The window margin (in pts) (blank area outside the border). A
 #: single value sets all four sides. Two values set the vertical and
 #: horizontal sides. Three values set top, horizontal and bottom. Four
 #: values set top, right, bottom and left.
 
-# single_window_margin_width -1
+single_window_margin_width -1
 
 #: The window margin to use when only a single window is visible (in
 #: pts). Negative values will cause the value of window_margin_width
@@ -868,14 +868,14 @@ font_size 14.0
 #: set the vertical and horizontal sides. Three values set top,
 #: horizontal and bottom. Four values set top, right, bottom and left.
 
-# window_padding_width 0
+window_padding_width 12
 
 #: The window padding (in pts) (blank area between the text and the
 #: window border). A single value sets all four sides. Two values set
 #: the vertical and horizontal sides. Three values set top, horizontal
 #: and bottom. Four values set top, right, bottom and left.
 
-# single_window_padding_width -1
+single_window_padding_width -1
 
 #: The window padding to use when only a single window is visible (in
 #: pts). Negative values will cause the value of window_padding_width
@@ -1174,12 +1174,11 @@ font_size 14.0
 #: Color scheme {{{
 
 # foreground #dddddd
-# background #000000
 
 #: The foreground and background colors.
 
 # background_opacity 0.9
-background_opacity 1
+# background_opacity 1
 
 #: The opacity of the background. A number between zero and one, where
 #: one is opaque and zero is fully transparent. This will only work if
@@ -2602,7 +2601,14 @@ background_opacity 1
 
 
 
-# BEGIN_KITTY_THEME
-# Catppuccin-Macchiato
-include current-theme.conf
-# END_KITTY_THEME
+# Rosé Pine
+# include current-theme.conf
+
+# tab_bar_min_tabs            1
+tab_bar_edge                bottom
+tab_bar_style               powerline
+tab_powerline_style         slanted
+tab_title_template          {title}{' :{}:'.format(num_windows) if num_windows > 1 else ''}
+# background #000000
+font_family      Monaspace Krypton 
+background_opacity 1.00
