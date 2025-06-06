@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+
+Name=Minecraft
+
+Version=1.0
+Exec=/home/bobross/.local/share/opt/UltimMC/UltimMC
+
+Categories=Game;
