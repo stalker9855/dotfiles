@@ -23,3 +23,5 @@ nwg-look \
 pywal16 \
 pipewire \
 wireplumber \
+wl-clipboard \
+hyprshot \
