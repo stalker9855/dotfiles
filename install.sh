@@ -20,7 +20,7 @@ chsh -s /usr/bin/zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 if [ -f ./packages.txt ]; then
-  yay -S - < ./packages.txt
+  yay -S --needed --noconfirm $(< packages.txt)
 else
   echo "Packages file not found. Aborting..."
   return 1
