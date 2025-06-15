@@ -1,27 +1,27 @@
-wayland \
-hyprland \
-waybar-cava \
-pavucontrol \
-rofi-wayland \
-ttf-iosevka-nerd \
-kitty \
-neovim \
-yazi \
-eza \
-zsh \
-xdg-desktop-portal \
-xdg-desktop-portal-hyprland \
-swww \
-fcitx5 \
-fcitx5-mozc \
-fcitx-qt \
-cava \
-btop \
-htop \
-fastfetch \
-nwg-look \
-pywal16 \
-pipewire \
-wireplumber \
-wl-clipboard \
-hyprshot \
+wayland 
+hyprland 
+waybar-cava 
+pavucontrol 
+rofi-wayland 
+ttf-iosevka-nerd 
+kitty 
+neovim 
+yazi 
+eza 
+zsh 
+xdg-desktop-portal 
+xdg-desktop-portal-hyprland 
+swww 
+fcitx5 
+fcitx5-mozc 
+fcitx-qt 
+cava 
+btop 
+htop 
+fastfetch 
+nwg-look 
+pywal16 
+pipewire 
+wireplumber 
+wl-clipboard 
+hyprshot 
