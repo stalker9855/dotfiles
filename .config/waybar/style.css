@@ -126,13 +126,6 @@ button:hover {
     margin-right: 0;
 }
 
-#battery {
-    color: #000000;
-}
-
-#battery.charging, #battery.plugged {
-    color: #ffffff;
-}
 
 @keyframes blink {
     to {
@@ -199,6 +192,18 @@ label:focus {
 
   /* background-color: #a292a3; */
   border: 2px solid @color3;
+  background-color: rgba(0,0,0, 0.5);
+  color: @foreground;
+}
+
+#battery {
+
+  min-height: 0;
+  border-radius: 4px;
+  padding: 0 8px;
+
+  /* background-color: #a292a3; */
+  border: 2px solid @color2;
   background-color: rgba(0,0,0, 0.5);
   color: @foreground;
 }

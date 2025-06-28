@@ -24,7 +24,8 @@
     "modules-right": [
       "group/hardware",
       "group/music",
-      "pulseaudio"
+      "pulseaudio",
+      "battery"
     ],
     "hyprland/workspaces": {
       "disable-scroll": true,
@@ -228,7 +229,7 @@
       "format-alt": "{time} {icon}",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
-        "format-icons": ["", "", "", "", ""]
+        "format-icons": [" ", " ", " ", " ", " "]
     },
     "battery#bat2": {
       "bat": "BAT2"
@@ -246,7 +247,7 @@
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "({signalStrength}%) ",
+        "format-wifi": " ",
         "format-ethernet": " ",
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
