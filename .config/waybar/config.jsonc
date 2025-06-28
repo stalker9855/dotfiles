@@ -1,10 +1,13 @@
 // -*- mode: jsonc -*-
 {
-    // "layer": "top", // Waybar at top layer
+    "layer": "bottom", // Waybar at top layer
     // "position": "bottom", // Waybar position (top|bottom|left|right)
     "height": 40, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
     "spacing": 4, // Gaps between modules (4px)
+    // "margin-top": 4,
+    // "margin-left": 12,
+    // "margin-right": 12,
     // Choose the order of the modules
     "modules-left": [
       "custom/menu",
@@ -129,7 +132,7 @@
     "group/hardware": {
       "orientation": "horizontal",
       "drawer": {
-        "transition-duration": 200,
+        "transition-duration": 300,
         "children-class": "not-power",
         "transition-left-to-right": true,
         "click-to-reveal": true
@@ -152,7 +155,6 @@
         "click-to-reveal": true
       },
       "modules": [
-        "cava",
         "mpris",
         "custom/separator"
       ]
