@@ -1,6 +1,7 @@
 yay -S wayland \
 hyprland \
 thunar \
+thunar-archive-plugin \
 thunar-volman \
 gvfs \
 pacmant-contrib \
