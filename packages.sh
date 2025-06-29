@@ -1,5 +1,8 @@
 yay -S wayland \
 hyprland \
+thunar \
+thunar-volman \
+gvfs \
 pacmant-contrib \
 waybar-cava \
 pavucontrol \
