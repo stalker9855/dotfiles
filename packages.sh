@@ -1,5 +1,6 @@
 yay -S wayland \
 hyprland \
+pacmant-contrib \
 waybar-cava \
 pavucontrol \
 rofi-wayland \

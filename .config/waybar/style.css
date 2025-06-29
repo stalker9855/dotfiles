@@ -184,6 +184,30 @@ label:focus {
   color: @foreground;
 }
 
+#backlight {
+
+  min-height: 0;
+  border-radius: 4px;
+  padding: 0 8px;
+
+  /* background-color: #a292a3; */
+  border: 2px solid @color6;
+  background-color: rgba(0,0,0, 0.5);
+  color: @foreground;
+}
+
+#bluetooth {
+
+  min-height: 0;
+  border-radius: 4px;
+  padding: 0 8px;
+
+  /* background-color: #a292a3; */
+  border: 2px solid @color7;
+  background-color: rgba(0,0,0, 0.5);
+  color: @foreground;
+}
+
 #network {
 
   min-height: 0;
