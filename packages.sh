@@ -9,6 +9,7 @@ waybar-cava \
 pavucontrol \
 rofi-wayland \
 ttf-iosevka-nerd \
+cozette-otb \
 kitty \
 neovim \
 yazi \
