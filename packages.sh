@@ -10,7 +10,7 @@ pavucontrol \
 rofi-wayland \
 ttf-iosevka-nerd \
 cozette-otb \
-kitty \
+alacritty \
 neovim \
 yazi \
 eza \
