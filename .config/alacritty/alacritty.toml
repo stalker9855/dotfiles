@@ -1,3 +1,7 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/kanagawa_dragon.toml"
+]
 [font]
 normal = { family = "Cozette", style = "Regular" }
 size = 18
@@ -5,59 +9,8 @@ size = 18
 [window]
 padding = { x = 24, y = 24 }
 
-opacity = 0.85
+opacity = 1
 
-# BEGIN WAL
-[colors.primary]
-# background = '#0C1213'
-background = '#000000'
-foreground = '#c2c3c4'
+# Colors (Kanagawa Wave)
+# Source https//github.com/rebelot/kanagawa.nvim
 
-[colors.cursor]
-text   = '#0C1213' # Apply background color to color of text inside cursor
-cursor = '#c2c3c4' # Apply foreground color to color of cursor
-
-[colors.vi_mode_cursor]
-text    = '#0C1213' # Same as above
-cursor  = '#c2c3c4'
-
-[colors.search.matches]
-foreground = '#0C1213' # Same as above
-background = '#c2c3c4' # Apply bright/white color to bg color of matching search
-
-[colors.search.focused_match]
-foreground = 'CellBackground'
-background = 'CellForeground'
-
-[colors.line_indicator]
-foreground = 'None'
-background = 'None'
-
-[colors.footer_bar]
-foreground = '#59676c'
-background = '#c2c3c4'
-
-[colors.selection]
-text       = 'CellBackground'
-background = 'CellForeground'
-
-[colors.normal]
-black   = '#0C1213'
-red     = '#4B535B'
-green   = '#685F5D'
-yellow  = '#535A62'
-blue    = '#6A6564'
-magenta = '#936F5F'
-cyan    = '#AF755B'
-white   = '#c2c3c4'
-
-[colors.bright]
-black   = '#59676c'
-red     = '#4B535B'
-green   = '#685F5D'
-yellow  = '#535A62'
-blue    = '#6A6564'
-magenta = '#936F5F'
-cyan    = '#AF755B'
-white   = '#c2c3c4'
-# END WAL

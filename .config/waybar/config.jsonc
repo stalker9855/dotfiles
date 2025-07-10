@@ -12,27 +12,28 @@
     "modules-left": [
       "custom/menu",
       "custom/separator",
-      "clock",
-      "network",
-      "tray",
+      "hyprland/workspaces",
       "custom/pacman",
       "custom/separator",
       "custom/notification"
     ],
-    "modules-center": [
-      "hyprland/workspaces"
-    ],
+    // "modules-center": [
+    //   "hyprland/window"
+    // ],
     "modules-right": [
       "group/hardware",
-      "group/music",
+      // "group/music",
       "pulseaudio",
+      "clock",
+      "tray",
+      "network",
       "battery"
     ],
     "hyprland/workspaces": {
       "disable-scroll": true,
       "all-outputs": true,
       "warp-on-scroll": false,
-      "format": "{icon}",
+      "format": "{name}",
       "format-icons": {
         "urgent": " ",
         "active": " ",
@@ -184,7 +185,7 @@
       "tooltip": false,
       "exec": "checkupdates | wc -l",       // # of updates
       "exec-if": "exit 0",                  // always run; consider advanced run conditions
-      "on-click": "kitty -e bash -c 'sudo pacman -Syu; echo Done - Press enter to exit; read'; pkill -SIGRTMIN+8 waybar",
+      "on-click": "alacritty -e bash -c 'sudo pacman -Syu; echo Done - Press enter to exit; read'; pkill -SIGRTMIN+8 waybar",
       "signal": 8
     },
     "mpris": {
@@ -220,7 +221,7 @@
             "format-off": "off",
             "format-disabled": "", // an empty format will hide the module
             "format-connected": " {num_connections} connected",
-            "on-click": "kitty -e bluetuith"
+            "on-click": "alacritty -e bluetuith"
             // "tooltip-format": "{controller_alias}\t{controller_address}",
             // "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
             // "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}"
@@ -269,7 +270,7 @@
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
         "format-alt": "{ifname}: {ipaddr}/{cidr}",
-        "on-click-right": "kitty -e nmtui"
+        "on-click-right": "alacritty -e nmtui"
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
