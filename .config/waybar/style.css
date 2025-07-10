@@ -196,7 +196,7 @@ label:focus {
 
   min-height: 0;
   border-radius: 4px;
-  padding: 0 8px;
+  padding: 2px 2px 2px 8px;
 
   /* background-color: #a292a3; */
   border: 2px solid @color6;
@@ -208,7 +208,7 @@ label:focus {
 
   min-height: 0;
   border-radius: 4px;
-  padding: 0 8px;
+  padding: 2px 8px;
 
   /* background-color: #a292a3; */
   border: 2px solid @color7;
@@ -256,7 +256,7 @@ label:focus {
 
   min-height: 0;
   border-radius: 4px;
-  padding: 0 8px;
+  padding: 2px 8px;
 
   /* background-color: #a292a3; */
   border: 2px solid @color3;
