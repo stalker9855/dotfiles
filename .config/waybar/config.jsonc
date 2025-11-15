@@ -23,6 +23,7 @@
     "modules-right": [
       "group/hardware",
       // "group/music",
+	  "hyprland/language",
       "pulseaudio",
       "clock",
       "tray",
@@ -54,6 +55,12 @@
     },
     "hyprland/mode": {
       "format": "<span style=\"italic\">{}</span>"
+    },
+    "hyprland/language": {
+			"format": {},
+			"format-en": "us",
+			"format-ru": "ru",
+			"format-uk": "ua"
     },
     "hyprland/scratchpad": {
       "format": "{icon} {count}",
@@ -275,8 +282,8 @@
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
         "format": "{icon}  {volume}%",
-        "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-bluetooth": "{volume}%   {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": " {format_source}",
         "format-source": "{volume}% ",
         "format-source-muted": "",

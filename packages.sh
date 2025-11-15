@@ -5,7 +5,9 @@ thunar \
 thunar-archive-plugin \
 thunar-volman \
 gvfs \
-pacmant-contrib \
+bluez \
+bluez-utils \
+pacman-contrib \
 pavucontrol \
 rofi-wayland \
 cozette-otb \
