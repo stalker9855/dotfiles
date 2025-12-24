@@ -1,7 +1,8 @@
 // -*- mode: jsonc -*-
 {
-    "layer": "bottom", // Waybar at top layer
-    // "position": "bottom", // Waybar position (top|bottom|left|right)
+    "layer": "top", // Waybar at top layer
+	"hide-empty-modulues": true,
+    "position": "bottom", // Waybar position (top|bottom|left|right)
     "height": 40, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
     "spacing": 4, // Gaps between modules (4px)
@@ -11,15 +12,13 @@
     // Choose the order of the modules
     "modules-left": [
       "custom/menu",
-      "custom/separator",
       "hyprland/workspaces",
       "custom/pacman",
-      "custom/separator",
       "custom/notification"
     ],
-    // "modules-center": [
-    //   "hyprland/window"
-    // ],
+    "modules-center": [
+      "hyprland/window"
+    ],
     "modules-right": [
       "group/hardware",
       // "group/music",
@@ -41,7 +40,7 @@
         "default": " "
       },
       "persistent-workspaces": {
-        "*": [1,2]
+        "*": [1,2,3,4]
       }
     },
     "keyboard-state": {
@@ -329,5 +328,10 @@
       "format": "󰂚 ",
       "on-click": "swaync-client -t -sw",
       "escape": true
-    }
+
+    },
+    "hyprland/window": {
+			"format": "{initialClass}",
+			"icon": true
+	}
 }

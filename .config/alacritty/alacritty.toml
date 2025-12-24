@@ -1,16 +1,15 @@
 [general]
-import = [
-    "~/.config/alacritty/themes/themes/kanagawa_dragon.toml"
-]
+import = ["./themes/vague.toml"]
+
+[env]
+TERM = "xterm-256color"
+
 [font]
-normal = { family = "Cozette", style = "Regular" }
-size = 18
+normal = { family = "Maple Mono", style = "Regular" }
+size = 16
+
 
 [window]
 padding = { x = 24, y = 24 }
 
 opacity = 1
-
-# Colors (Kanagawa Wave)
-# Source https//github.com/rebelot/kanagawa.nvim
-

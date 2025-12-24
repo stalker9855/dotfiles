@@ -1,0 +1,10 @@
+[StreamInputs]
+inputDevice=alsa_input.pci-0000_07_00.6.HiFi__Mic2__source
+
+[StreamOutputs]
+outputDevice=alsa_output.pci-0000_07_00.6.HiFi__Headphones__sink
+visiblePage=pluginsPage
+
+[Window]
+height=831
+width=1576
