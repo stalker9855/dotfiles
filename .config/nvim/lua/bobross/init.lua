@@ -40,7 +40,7 @@ vim.keymap.set({ "n", "v" }, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
 
 -- nvimtree
-vim.keymap.set("n", "<leader>ee", "<CMD>Ex<CR>")
+vim.keymap.set("n", "<leader>ee", "<CMD>Oil --float<CR>")
 
 -- find and replace
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
