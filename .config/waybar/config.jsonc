@@ -12,9 +12,9 @@
     // Choose the order of the modules
     "modules-left": [
       "custom/menu",
-      "hyprland/workspaces",
-      "custom/pacman",
-      "custom/notification"
+	  "custom/pacman",
+	  "custom/notification",
+      "hyprland/workspaces"
     ],
     "modules-center": [
       "hyprland/window"
