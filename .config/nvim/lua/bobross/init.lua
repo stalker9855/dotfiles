@@ -40,14 +40,14 @@ vim.keymap.set({ "n", "v" }, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
 
 -- nvimtree
-vim.keymap.set("n", "<leader>ee", "<CMD>Oil --float<CR>")
+vim.keymap.set("n", "<leader>ee", "<CMD>Ex<CR>")
 
 -- find and replace
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
+vim.keymap.set("n", "<Tab>", "<cmd>bnext<CR>")
+vim.keymap.set("n", "<S-Tab>", "<cmd>bprevious<CR>")
 -- barbar
--- vim.keymap.set("n", "<Tab>", "<cmd>BufferNext<CR>")
--- vim.keymap.set("n", "<S-Tab>", "<cmd>BufferPrevious<CR>")
 -- vim.keymap.set("n", "<leader>x", "<cmd>BufferClose<CR>")
 --
 
@@ -118,3 +118,5 @@ lspconfig.emmet_ls.setup({
 lspconfig.html.setup({
   filetypes = { "html", "jinja.html", "jinja" },
 })
+
+require("lspconfig").qmlls.setup {}
