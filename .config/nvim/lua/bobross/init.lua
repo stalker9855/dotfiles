@@ -99,9 +99,8 @@ vim.filetype.add({
 		}
 })
 
-local lspconfig = require("lspconfig")
 
-lspconfig.tailwindcss.setup({
+vim.lsp.config("tailwindcss", {
   filetypes = { "html", "jinja.html", "jinja", "htmldjango", "vue" },
   init_options = {
     userLanguages = {
@@ -111,12 +110,11 @@ lspconfig.tailwindcss.setup({
   },
 })
 
-lspconfig.emmet_ls.setup({
+vim.lsp.config("emmet_ls", {
   filetypes = { "html", "jinja.html", "jinja", "htmldjango", "css", "scss" },
 })
 
-lspconfig.html.setup({
+vim.lsp.config("html", {
   filetypes = { "html", "jinja.html", "jinja" },
 })
 
-require("lspconfig").qmlls.setup {}

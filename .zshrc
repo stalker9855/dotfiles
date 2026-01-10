@@ -113,6 +113,5 @@ source $ZSH/oh-my-zsh.sh
 alias ls="eza -1 --icons"
 alias vim="nvim"
 alias yy="yazi"
-alias fastfetch="fastfetch --config arch"
 
 alias steam="VK_DRIVER_FILES=/usr/share/vulkan/icd.d/radeon_icd.i686.json:/usr/share/vulkan/icd.d/radeon_icd.x86_64.json steam"

@@ -1,0 +1,9 @@
+# .stow-local-ignore
+
+^\.git$
+^packages.sh$
+^README.md$
+^gallery/
+^\.config/dconf/
+^\.config/dconf/.*
+^\.config/mimeapps\.list$
