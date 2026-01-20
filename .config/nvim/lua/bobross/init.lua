@@ -11,6 +11,7 @@ vim.o.splitright = true
 vim.o.splitbelow = true
 vim.o.cursorline = true
 vim.o.scrolloff = 8
+vim.o.laststatus = 3
 vim.o.confirm = true
 vim.opt.relativenumber = true
 vim.opt.nu = true
@@ -53,11 +54,33 @@ vim.keymap.set("n", "<S-Tab>", "<cmd>bprevious<CR>")
 
 vim.keymap.set("n", "<leader>n", "<cmd>bnext<cr>")
 vim.keymap.set("n", "<leader>p", "<cmd>bprevious<cr>")
-vim.keymap.set("n", "<leader>x", "<cmd>bd<cr>")
+-- vim.keymap.set("n", "<leader>x", "<cmd>bd<cr>")
 
 -- lsp
 vim.keymap.set("n", "<leader>zig", "<cmd>LspRestart<cr>")
 vim.keymap.set("n", "<leader>r", vim.lsp.buf.rename)
+
+vim.keymap.set("n", "<leader>xx", function ()
+		vim.diagnostic.setqflist(
+				{
+						severity = { min = vim.diagnostic.severity.WARN }
+				}
+		)
+end)
+
+vim.api.nvim_create_autocmd("DiagnosticChanged", {
+		callback = function()
+				vim.diagnostic.setqflist({
+						open = false,
+						severity = {}
+				})
+		end
+})
+
+
+vim.keymap.set("n", "<leader>xc", "<cmd>cclose<CR>")
+vim.keymap.set("n", "<A-j>", "<cmd>cnext<CR>")
+vim.keymap.set("n", "<A-k>", "<cmd>cprevious<CR>")
 
 vim.opt.list = true
 vim.opt.listchars:append("space:⋅")
