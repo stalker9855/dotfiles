@@ -340,7 +340,7 @@
       "tooltip": true,
       "tooltip-format": "Power Menu",
       "format": "󰍜 ",
-      "on-click": "rofi -show drun",
+      "on-click": "rofi -show drun -theme $HOME/.config/rofi/theme.rasi",
       "escape": true
     },
     "custom/notification": {
