@@ -13,3 +13,57 @@ size = 16
 padding = { x = 24, y = 24 }
 
 opacity = 1
+# BEGIN WAL
+[colors.primary]
+# background = '#0B1012'
+background = '#000000'
+foreground = '#e5d4ac'
+
+[colors.cursor]
+text   = '#0B1012' # Apply background color to color of text inside cursor
+cursor = '#e5d4ac' # Apply foreground color to color of cursor
+
+[colors.vi_mode_cursor]
+text    = '#0B1012' # Same as above
+cursor  = '#e5d4ac'
+
+[colors.search.matches]
+foreground = '#0B1012' # Same as above
+background = '#e5d4ac' # Apply bright/white color to bg color of matching search
+
+[colors.search.focused_match]
+foreground = 'CellBackground'
+background = 'CellForeground'
+
+[colors.line_indicator]
+foreground = 'None'
+background = 'None'
+
+[colors.footer_bar]
+foreground = '#a09478'
+background = '#e5d4ac'
+
+[colors.selection]
+text       = 'CellBackground'
+background = 'CellForeground'
+
+[colors.normal]
+black   = '#0B1012'
+red     = '#535349'
+green   = '#656255'
+yellow  = '#6C6D53'
+blue    = '#986D51'
+magenta = '#7B835E'
+cyan    = '#95915D'
+white   = '#e5d4ac'
+
+[colors.bright]
+black   = '#a09478'
+red     = '#535349'
+green   = '#656255'
+yellow  = '#6C6D53'
+blue    = '#986D51'
+magenta = '#7B835E'
+cyan    = '#95915D'
+white   = '#e5d4ac'
+# END WAL

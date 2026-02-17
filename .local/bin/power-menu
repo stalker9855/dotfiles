@@ -1,10 +1,17 @@
 #! /usr/bin/sh
 
-chosen=$(printf "󰐥 Power Off\n Restart\n󰤄 Suspend\n Lock" | rofi -dmenu -i -p "Powermenu")
+ICON_DIR="$HOME/.config/rofi/icons/"
+
+options="Power\0icon\x1f$ICON_DIR/power.svg\n"
+options="${options}Restart\0icon\x1f$ICON_DIR/restart.svg\n"
+options="${options}Suspend\0icon\x1f$ICON_DIR/suspend.svg\n"
+options="${options}Lock\0icon\x1f$ICON_DIR/lock.svg"
+
+chosen=$(printf "$options" | rofi -dmenu -i -p "Powermenu" -show-icons -theme "$HOME/.config/rofi/lock-theme.rasi")
 case "$chosen" in 
-  "󰐥 Power Off") shutdown now;;
-  " Restart") systemctl reboot ;;
-  "󰤄 Suspend") systemctl suspend && hyprlock ;;
-  " Lock") hyprlock ;;
+  "Power") shutdown now;;
+  "Restart") systemctl reboot ;;
+  "Suspend") systemctl suspend && hyprlock ;;
+  "Lock") hyprlock ;;
 	*) exit 1 ;;
 esac

@@ -1,10 +1,16 @@
 #! /usr/bin/sh
 
-chosen=$(printf "󰍹  Monitor\n󰗆  Region\n  Window\n" | rofi -dmenu -i -p "Screenshot menu")
+ICON_DIR="$HOME/.config/rofi/icons/"
+
+options="Monitor\0icon\x1f$ICON_DIR/monitor.svg\n"
+options="${options}Region\0icon\x1f$ICON_DIR/region.svg\n"
+options="${options}Window\0icon\x1f$ICON_DIR/window.svg\n"
+
+chosen=$(printf "$options" | rofi -dmenu -i -p "Screenshot menu" -theme "$HOME/.config/rofi/screenshot-theme.rasi")
 
 case "$chosen" in 
-  "󰍹  Monitor") hyprshot -m output;;
-  "󰗆  Region") hyprshot -m region ;;
-  "  Window") hyprshot -m window ;;
+  "Monitor") hyprshot -m output -o $HOME/Pictures/Screenshots/;;
+  "Region") hyprshot -m region -o $HOME/Pictures/Screenshots/;;
+  "Window") hyprshot -m window -o $HOME/Pictures/Screenshots/;;
 	*) exit 1 ;;
 esac

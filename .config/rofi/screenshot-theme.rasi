@@ -1,0 +1,108 @@
+/**
+ * rofi -dump-theme output.
+ * Rofi version: 2.0.0
+ **/
+
+@import "colors.rasi"
+
+* {
+		font: "Maple Mono 12";
+}
+
+element {
+    padding: 10px ;
+	margin: 2;
+	orientation: vertical;
+    cursor:  pointer;
+    spacing: 1px ;
+    border:  0;
+	border-radius: 8;
+}
+element normal.normal {
+    background-color: var(surface);
+    text-color:       var(on-surface);
+}
+element normal.urgent {
+    background-color: var(surface);
+    text-color:       var(on-surface);
+}
+element normal.active {
+    background-color: var(primary-container);
+    text-color:       var(on-secondary);
+}
+element selected.normal {
+    background-color: var(secondary-container);
+    text-color:       var(secondary);
+}
+element selected.urgent {
+    background-color: var(primary);
+    text-color:       var(surface);
+}
+element alternate.normal {
+    background-color: var(surface);
+    text-color:       var(on-surface);
+}
+element alternate.urgent {
+    background-color: var(surface);
+    text-color:       var(on-surface);
+}
+element alternate.active {
+    background-color: var(surface);
+    text-color:       var(on-surface);
+}
+element-text {
+  vertical-align:   0.5;
+  horizontal-align: 0.5;
+  background-color: transparent;
+cursor:           inherit;
+highlight:        inherit;
+				  text-color:       inherit;
+}
+element-icon {
+    background-color: transparent;
+		size: 2.5em;
+    cursor:           inherit;
+    text-color:       inherit;
+}
+window {
+    padding:          20;
+    background-color: var(surface);
+    border:           8;
+	border-radius: 8;
+}
+textbox {
+    text-color: var(on-primary);
+}
+listview {
+	background-color: var(surface);
+    scrollbar:    false;
+    border-color: var(primary);
+    spacing:      2px ;
+    fixed-height: 0;
+}
+textbox-num-sep {
+	background-color: var(surface);
+	text-color: var(on-surface);
+    expand:     false;
+    str:        "/";
+}
+inputbar {
+		enabled: false;
+}
+
+listview {
+  columns:       3;
+  lines:         1;
+  cycle:         true;
+  dynamic:       true;
+  layout:        vertical;
+  flow:          horizontal;
+  reverse:       false;
+  fixed-height:  true;
+  fixed-columns: true;
+}
+
+textbox {
+  vertical-align:   0.5;
+  horizontal-align: 0.5;
+}
