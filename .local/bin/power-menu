@@ -11,7 +11,7 @@ chosen=$(printf "$options" | rofi -dmenu -i -p "Powermenu" -show-icons -theme "$
 case "$chosen" in 
   "Power") shutdown now;;
   "Restart") systemctl reboot ;;
-  "Suspend") systemctl suspend && hyprlock ;;
+  "Suspend") hyprlock & disown; sleep 1; systemctl suspend ;;
   "Lock") hyprlock ;;
 	*) exit 1 ;;
 esac
