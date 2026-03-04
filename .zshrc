@@ -124,3 +124,7 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 alias ren="cd Documents/scanner-renault/api && ./tmux-session.sh"
 
 export PATH=$PATH:/home/bobross/.spicetify
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)

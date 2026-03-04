@@ -1,5 +1,10 @@
+[Added Associations]
+x-scheme-handler/http=app.zen_browser.zen.desktop;
+x-scheme-handler/https=app.zen_browser.zen.desktop;
 
 [Default Applications]
-x-scheme-handler/discord-1216669957799018608=discord-1216669957799018608.desktop
 inode/directory=term-yazi.desktop
+x-scheme-handler/discord-1216669957799018608=discord-1216669957799018608.desktop
+x-scheme-handler/http=app.zen_browser.zen.desktop;
+x-scheme-handler/https=app.zen_browser.zen.desktop;
 x-scheme-handler/viber=viber.desktop
