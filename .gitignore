@@ -1,2 +1,7 @@
 lazy-lock.json
+corectrl/
+gtk-3.0/
+gtk-4.0/
+htop/
+mimeapps.list
 systemd/

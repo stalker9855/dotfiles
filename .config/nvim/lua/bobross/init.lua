@@ -60,23 +60,20 @@ vim.keymap.set("n", "<leader>p", "<cmd>bprevious<cr>")
 vim.keymap.set("n", "<leader>zig", "<cmd>LspRestart<cr>")
 vim.keymap.set("n", "<leader>r", vim.lsp.buf.rename)
 
-vim.keymap.set("n", "<leader>xx", function ()
-		vim.diagnostic.setqflist(
-				{
-						severity = { min = vim.diagnostic.severity.WARN }
-				}
-		)
+vim.keymap.set("n", "<leader>xx", function()
+	vim.diagnostic.setqflist({
+		severity = { min = vim.diagnostic.severity.WARN },
+	})
 end)
 
 vim.api.nvim_create_autocmd("DiagnosticChanged", {
-		callback = function()
-				vim.diagnostic.setqflist({
-						open = false,
-						severity = {}
-				})
-		end
+	callback = function()
+		vim.diagnostic.setqflist({
+			open = false,
+			severity = {},
+		})
+	end,
 })
-
 
 vim.keymap.set("n", "<leader>xc", "<cmd>cclose<CR>")
 vim.keymap.set("n", "<A-j>", "<cmd>cnext<CR>")
@@ -85,4 +82,3 @@ vim.keymap.set("n", "<A-k>", "<cmd>cprevious<CR>")
 vim.opt.list = true
 vim.opt.listchars:append("space:⋅")
 vim.opt.listchars:append("tab:→ ")
-

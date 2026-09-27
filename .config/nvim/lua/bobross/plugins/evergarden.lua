@@ -12,14 +12,11 @@ return {
 			sign = { color = "none" },
 			float = {
 				color = "mantle",
-				solid_border = true,
+				solid_border = false,
 			},
 			completion = {
 				color = "surface0",
 			},
 		},
 	},
-	config = function()
-		-- vim.cmd.colorscheme("evergarden")
-	end,
 }
