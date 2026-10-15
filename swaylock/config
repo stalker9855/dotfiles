@@ -1,0 +1,15 @@
+image=$HOME/.config/wallpapers/wallhaven-yq2z7x.png
+scaling=fill
+show-failed-attempts
+ring-color=#FFFFFF
+line-color=#FFFFFF
+inside-color=#000000
+key-hl-color=#000000
+layout-border-color=#000000
+indicator-x-position=1780
+indicator-y-position=980
+indicator-thickness=15
+font=JetBrainsMono Nerd Font Mono
+text-color=#FFFFFF
+clock
+indicator
