@@ -23,10 +23,17 @@
         "custom/separator",
         "tray"
     ],
+"sway/language": {
+    "format": "{}",
+    "format-en": "EN",
+    "format-uk": "UA",
+    "format-us": "US",
+    "format-ja": "JA",
+},
     "keyboard-state": {
         "numlock": true,
         "capslock": true,
-        "format": "{name} {icon}",
+        "format": "{name}",
         "format-icons": {
             "locked": "",
             "unlocked": ""
@@ -122,7 +129,7 @@
         },
         "format": "BATT: {capacity}%",
         "format-full": "{capacity}% {icon}",
-        "format-charging": "{capacity}% ",
+        "format-charging": "CHARGING: {capacity}%",
         "format-plugged": "{capacity}% ",
         "format-alt": "{time} {icon}",
         // "format-good": "", // An empty format will hide the module
